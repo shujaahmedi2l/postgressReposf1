@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "postgressss1"
+  description: "description"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/postgressss1"
+    argocd/app-name: "postgressss1"
+  links:
+    - url: https://postgresssubdomainss1.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
